@@ -1,0 +1,12 @@
+package day33_StringBuilder;
+
+public class C05_Reverse {
+
+	public static void main(String[] args) {
+		//  verilen bir cumleyi tersten yazdiralim
+		
+		StringBuilder sb = new StringBuilder("Java ne kadar kolay");
+		System.out.println(sb.reverse());// yalok radak en avaJ
+	}
+
+}
